@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
+}
+
+.container > div {
+    border: 1px solid #666;
+    padding: 10px;
+    margin-top: 50px;
+} 
+
+.container  img {  
+    width: 15px;
+    height: 15px;
+}
