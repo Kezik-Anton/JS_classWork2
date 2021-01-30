@@ -9,9 +9,9 @@ if (suit == true) { //масть красная
     suit = confirm('Это буба?');
 
     if (suit == true) {
-        suit = '<img src="img/buba.png">'; // буба
+        suit = '<img src="img/buba.png" alt="Буби">'; // буба
     } else {
-        suit = '<img src="img/chervy.png" alt="#">'; // черви
+        suit = '<img src="img/chervy.png" alt="Черви">'; // черви
     }
     
 } else { //масть черная
@@ -19,9 +19,9 @@ if (suit == true) { //масть красная
     suit = confirm('Это пики?');
 
     if (suit == true) {
-        suit = '<img src="img/piki.png" alt="#">'; // пики
+        suit = '<img src="img/piki.png" alt="Пики">'; // пики
     } else {
-        suit = '<img src="img/trefy.png" alt="#">'; // трефы
+        suit = '<img src="img/trefy.png" alt="Трефы">'; // трефы
     }
 
 }
